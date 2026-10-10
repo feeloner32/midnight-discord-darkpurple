@@ -1,0 +1,127 @@
+/**
+ * @name midnight (dark purple)
+ * @description a dark, customizable discord theme in deep purple tones.
+ * @author refact0r & feeloner
+ * @version 2.1.1-darkpurple
+ * @source https://github.com/refact0r/midnight-discord
+ */
+
+/* import theme modules */
+@import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
+
+body {
+    --font: 'figtree';
+    --code-font: '';
+    font-weight: 400;
+
+    --gap: 12px;
+    --divider-thickness: 4px;
+    --border-thickness: 1px;
+
+    --animations: on;
+    --list-item-transition: 0.2s ease;
+    --dms-icon-svg-transition: 0.4s ease;
+    --border-hover-transition: 0.2s ease;
+
+    --top-bar-height: var(--gap);
+    --top-bar-button-position: titlebar;
+    --top-bar-title-position: off;
+    --subtle-top-bar-title: off;
+
+    --custom-window-controls: on;
+    --window-control-size: 14px;
+
+    --custom-dms-icon: hide;
+    --dms-icon-svg-url: url('https://refact0r.github.io/midnight-discord/assets/Font_Awesome_5_solid_moon.svg');
+    --dms-icon-svg-size: 90%;
+    --dms-icon-color-before: var(--icon-subtle);
+    --dms-icon-color-after: var(--white);
+    --custom-dms-background: image;
+    --dms-background-image-url: url('https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png');
+    --dms-background-image-size: cover;
+    --dms-background-color: linear-gradient(70deg, var(--purple-2), var(--purple-4), var(--purple-5));
+
+    --background-image: off;
+    --background-image-url: url('');
+
+    --transparency-tweaks: off;
+    --remove-bg-layer: off;
+    --panel-blur: off;
+    --blur-amount: 12px;
+    --bg-floating: var(--bg-3);
+
+    --custom-chatbar: off;
+    --chatbar-height: 47px;
+
+    --small-user-panel: on;
+}
+
+:root {
+    --colors: on;
+    --text-0: var(--bg-3);
+    --text-1: hsl(270, 60%, 96%);
+    --text-2: hsl(270, 50%, 90%);
+    --text-3: hsl(270, 40%, 82%);
+    --text-4: hsl(270, 25%, 62%);
+    --text-5: hsl(270, 20%, 45%);
+
+    --bg-1: hsl(268, 30%, 30%);
+    --bg-2: hsl(268, 32%, 22%);
+    --bg-3: hsl(268, 35%, 13%);
+    --bg-4: hsl(268, 38%, 9%);
+    --hover: hsla(270, 40%, 60%, 0.1);
+    --active: hsla(270, 40%, 60%, 0.2);
+    --active-2: hsla(270, 40%, 60%, 0.3);
+    --message-hover: hsla(270, 40%, 0%, 0.15);
+
+    --accent-1: var(--purple-1);
+    --accent-2: var(--purple-2);
+    --accent-3: var(--purple-3);
+    --accent-4: var(--purple-4);
+    --accent-5: var(--purple-5);
+    --accent-new: var(--purple-3);
+    --mention: linear-gradient(to right, color-mix(in hsl, var(--accent-2), transparent 88%) 40%, transparent);
+    --mention-hover: linear-gradient(to right, color-mix(in hsl, var(--accent-2), transparent 94%) 40%, transparent);
+    --reply: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 88%) 40%, transparent);
+    --reply-hover: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 94%) 40%, transparent);
+
+    --online: var(--green-2);
+    --dnd: var(--red-2);
+    --idle: var(--yellow-2);
+    --streaming: var(--purple-2);
+    --offline: var(--text-4);
+
+    --border-light: var(--hover);
+    --border: var(--active);
+    --border-hover: var(--active);
+    --button-border: hsla(270, 40%, 100%, 0.08);
+
+    --red-1: hsl(330deg, 75%, 80%);
+    --red-2: hsl(330deg, 75%, 74%);
+    --red-3: hsl(330deg, 75%, 74%);
+    --red-4: hsl(330deg, 75%, 68%);
+    --red-5: hsl(330deg, 75%, 62%);
+
+    --green-1: hsl(150deg, 50%, 80%);
+    --green-2: hsl(150deg, 50%, 74%);
+    --green-3: hsl(150deg, 50%, 74%);
+    --green-4: hsl(150deg, 50%, 68%);
+    --green-5: hsl(150deg, 50%, 62%);
+
+    --blue-1: hsl(260deg, 70%, 82%);
+    --blue-2: hsl(260deg, 70%, 76%);
+    --blue-3: hsl(260deg, 70%, 76%);
+    --blue-4: hsl(260deg, 70%, 70%);
+    --blue-5: hsl(260deg, 70%, 64%);
+
+    --yellow-1: hsl(45deg, 85%, 85%);
+    --yellow-2: hsl(45deg, 85%, 78%);
+    --yellow-3: hsl(45deg, 85%, 78%);
+    --yellow-4: hsl(45deg, 85%, 72%);
+    --yellow-5: hsl(45deg, 85%, 66%);
+    --purple-1: hsl(270deg, 85%, 88%);
+    --purple-2: hsl(270deg, 80%, 78%);
+    --purple-3: hsl(270deg, 78%, 72%);
+    --purple-4: hsl(270deg, 75%, 64%);
+    --purple-5: hsl(270deg, 72%, 56%);
+}
